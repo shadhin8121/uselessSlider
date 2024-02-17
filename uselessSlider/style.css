@@ -1,0 +1,37 @@
+.container {
+  width: 95%;
+  margin: auto;
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 300px;
+  object-position: top;
+}
+
+.lol {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.bg {
+  background: green;
+}
